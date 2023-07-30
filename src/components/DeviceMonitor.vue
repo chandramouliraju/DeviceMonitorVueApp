@@ -11,15 +11,15 @@
                         <th>Date</th>
                         <th>Topic</th>
                         <th>Device Id</th>
-                        <th>Payload</th>
+                        <th>Measurement</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr v-for="devicemonitor in post" :key="devicemonitor.timestamp">
-                        <td>{{ devicemonitor.timestamp }}</td>
+                    <tr v-for="devicemonitor in post" :key="devicemonitor.dateTime">
+                        <td>{{ devicemonitor.dateTime }}</td>
                         <td>{{ devicemonitor.topic }}</td>
                         <td>{{ devicemonitor.deviceId }}</td>
-                        <td>{{ devicemonitor.payload }}</td>
+                        <td>{{ devicemonitor.measurement }}</td>
                     </tr>
                 </tbody>
             </table>
