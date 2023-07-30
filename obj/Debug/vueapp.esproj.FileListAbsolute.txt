@@ -1,0 +1,2 @@
+D:\DotnetWorkspace\DeviceMonitor\vueapp\obj\Debug\vueapp.esproj.SuggestedBindingRedirects.cache
+D:\DotnetWorkspace\DeviceMonitor\vueapp\obj\Debug\vueapp.esproj.CoreCompileInputs.cache
